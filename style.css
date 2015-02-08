@@ -1,0 +1,109 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    color:#222;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+body{
+    background: #eee;
+    margin: 0;
+}
+
+#title{
+    font-size: 1.5em;
+    display:inline-block;
+    margin: 0 0.5em;
+}
+
+#top{
+    background: #fff;
+    padding: 0.4em;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+}
+
+#searchbox{
+    font-size: 1em;
+    padding: 0.5em;
+    width:calc(100% - 8em);
+    max-width: 500px;
+    margin: 0;
+}
+
+#aboutbutton{
+    float: right;
+    padding: 0.6em;
+    text-decoration: none;
+}
+
+#suggestions{
+    background: #fff;
+    padding: 0.5em;
+    display: inline-block;
+    position: relative;
+    left: 6.5em;
+    top: 1em;
+    width: 400px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+    display: none;
+}
+
+#suggestions a{
+    padding: 0.5em;
+    display: block;
+    text-decoration: none;
+}
+
+#suggestions a:hover{
+    background: #efefef;
+}
+
+#data{
+    background: #fff;
+    padding: 1em;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto 2em;
+    height: 80%;
+    overflow-y:auto;
+}
+
+#charttitle{
+    margin: 0;
+    margin-bottom:0.4em;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+    padding: 2em;
+}
+
+#legend
+{
+    display: inline-block;
+    width: fit-content;
+}
+
+ol{
+    width:300px;
+    margin: auto;
+}
+
+ol li{
+    font-size: 1.3em;
+    padding: 0.5em;
+    border-bottom:1px solid #ccc;
+}
+
+canvas {
+    display: inline-block;
+}
